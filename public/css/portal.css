@@ -1,0 +1,92 @@
+*{
+  font-family: sans-serif;
+  overflow: hidden;
+}
+.menu-hamburguer {
+  position: absolute;
+  top: 1.5em;
+  right: 1em;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.linha {
+  width: 1.5em;
+  height: 0.2em;
+  background-color: white;
+  margin-bottom: 0.3em;
+}
+.left-header{
+  background-color: gray;
+  width: 20%;
+  height: 60em;
+  position: relative;
+  bottom: 0.5em;
+}
+
+.lf-foto-usuario{
+  background-image: url('https://cdn.pixabay.com/photo/2021/06/07/13/46/user-6318008_960_720.png');
+  width: 15em;
+  height: 15em;
+  position: relative;
+  left: 3.5em;
+  margin-top: 3em;
+  background-size: 15em;
+  background-repeat: no-repeat;
+  border: 1px solid #000;
+}
+
+.lf-lista  ul{
+   box-shadow: -4px 10px 10px #000;
+   
+  }
+  
+  .lf-lista li{
+  position: relative;
+  right: 2.5em;
+  width: 23em;
+  height: 2em;
+  background-color: #fff;
+  margin-top: 3em;
+  color: #000;
+  text-align: center;
+  box-shadow: -4px 10px 10px #000;
+
+}
+.lf-lista a{
+  position: relative;
+  top: 0.5em;
+
+}
+
+.fim-header{
+  position: relative;
+  background-color: #000;
+  height: 5em;
+  top: 4.5em;
+}
+
+.fim-header a{
+  position: relative;
+  left: 10em;
+  top: 2em;
+  color: #fff;
+}
+
+.conteudo-home-portal{
+  position: relative;
+  background-color: white;
+ height: 60em;
+ width: 93em;
+ left: 22.8em;
+ bottom: 60em;
+ border-left: 4px solid #000;
+
+}
+ 
+.conteudo-home-portal h1{
+  position: relative;
+  left: 11em;
+  font-size: 3em;
+  
+}

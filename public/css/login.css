@@ -1,0 +1,118 @@
+body{
+    background-color: #315341;
+    overflow: hidden;
+}
+
+#img1{
+    height:61.2em;
+    width:45em;
+    border-right: #1A2E35 3px solid;
+}
+
+#btn{
+   position:relative;
+   border-radius: 12px;
+   border-width: 3px;
+}
+h2{
+    position: relative;
+    left: 7em;
+    bottom: 1em;
+    color: white;
+}
+
+.menu{
+    position: relative;
+    left: 50em;
+    top: 5em;
+    width: 35em;
+    height: 27em;
+    border-radius: 20px;
+
+}
+.left-menu{
+    position: relative;
+    height: 10em;
+    background-repeat: no-repeat;
+}
+.conteudo{
+    position: relative;
+    top: 4em;
+    left: 7em;
+}
+
+
+.formulario{
+    position: relative;
+    left: 3em;
+    height: 20em;
+    color: white;
+}
+
+input{
+    margin-top: 1em;
+    border-width: 0px;
+}
+.ipt{
+    text-align: center;
+}
+
+@media only screen and (max-device-width: 600px) {
+    body{
+    background-color: #315341;
+}
+
+
+#btn{
+   position:relative;
+   border-radius: 12px;
+   border-width: 3px;
+}
+h2{
+    position: relative;
+    left: 5em;
+    bottom: 1em;
+    color: white;
+}
+
+
+#img1{
+    width: 0px;
+}
+.menu{
+    position: relative;
+    left: 0%;
+    top: 0%;
+    width: 70%;
+    height: 1em;
+    border-radius: 20px;
+
+}
+.left-menu{
+    position: relative;
+    height: 0em;
+    background-repeat: no-repeat;
+}
+.conteudo{
+    position: relative;
+    top: 280px;
+    left: 7em;
+    width: 100%;
+}
+
+.formulario{
+    position: relative;
+    left: 3em;
+    height: 2em;
+    color: white;
+}
+
+input{
+    margin-top: 1em;
+    border-width: 0px;
+}
+.ipt{
+    text-align: center;
+}
+
+    }

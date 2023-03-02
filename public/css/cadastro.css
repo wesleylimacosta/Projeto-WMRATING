@@ -1,0 +1,83 @@
+*{
+        font-family: 'sans-serif';
+
+    }
+    body{
+        background-color: #315341;
+        overflow: hidden;
+    }
+
+    h1{
+        position: relative;
+        margin-left: 9.5em;
+        bottom: 15em;
+    }
+
+    .frase-cadastro{
+        position: relative;
+        font-size: 1em;
+        margin-left: 2em;
+        top: 1em;
+    }
+
+
+    .formulario-cadastro{
+        background-color: #fff;
+        width: 63em;
+        height: 40em;
+        position: absolute;
+        top: 12em;
+        left: 15em;
+        border-radius: 12px ;
+    }
+
+    .left-inputs{
+        top: 8em;
+        left: 2em;
+        position: absolute;
+        width: 40%;
+        
+    }
+
+    .right-inputs{
+        top: 8em;
+        left: 35em;
+        position: absolute;
+        width: 40%;
+    }
+
+    .btn{
+        position: absolute;
+        top: 20em;
+        left: 23em;
+        width: 15em;
+    }
+    a{
+        color: black;
+    }
+
+    .info-login{
+        position: absolute;
+        left: 25em;
+        top: 30em;
+    }
+
+    .img-formulario{
+        border-left: 12px;
+        position: relative;
+        left: 62em;
+        height: 40em;
+        width: 25em;
+        display: flex;
+    }
+
+    ul{
+        list-style: none;
+        display: flex;
+        gap: 6px;
+        position: absolute;
+        left: 31em;
+        font-size: 1.4em;
+        cursor: pointer;
+        color: white;
+    }
